@@ -1,0 +1,169 @@
+@font-face {
+  font-family: sharpgro;
+  src: url("/Test-design2/fonts/SharpGrotesk-Medium.woff");
+}
+@font-face {
+  font-family: work-med;
+  src: url("/Test-design2/fonts/WorkSans-Medium.woff");
+}
+@font-face {
+  font-family: work-reg;
+  src: url("/Test-design2/fonts/WorkSans-Regular.woff");
+}
+@font-face {
+  font-family: work-semi;
+  src: url("/Test-design2/fonts/WorkSans-SemiBold.woff");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+.container{
+  max-width: 1320px;
+  margin: 0 auto;
+}
+main {
+  padding: 20px 0 20px 20px;
+  background-color: #fff7f0;
+}
+main .container{
+  display: flex;
+}
+main section {
+  margin: 20px 0 20px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.main-content {
+  /* main content */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.career-arrow h2 {  /* career heading */
+  font-family: sharpgro;
+  font-weight: lighter;
+  font-size: 18px;
+}
+.arrow-img {  /* arrow img */
+  margin-top: 10px;
+}
+.arrow-img,
+.logo {  /*logo  */
+  width: 180px;
+}
+.heading {  /* main heading */
+  font-size: 75px;
+  font-family: sharpgro;
+  font-weight: lighter;
+}
+.lady-img-container {  /* lady img */
+  width: 50%;
+  display: flex;
+  align-items: end;
+  padding-bottom: 20px;
+}
+.lady-img {
+  width: 100%;
+}
+.phone-form {  /* form and phone img */
+  display: flex;
+  justify-content: space-between;
+}
+.form {  /* form */
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.form p {
+  font-size: 17px;
+  line-height: 1.5;
+  width: 70%;
+  font-family: work-reg;
+}
+.form input {   /* input */
+  padding: 15px 25px;
+  font-size: 18px;
+  border-radius: 10px;
+  width: 85%;
+  border: 1px solid #000000;
+  color: #a5a5a5;
+  font-family: work-reg;
+}
+.form button {  /* submit btn */
+  width: 30%;
+  padding: 15px 20px;
+  border-radius: 10px;
+  border: 1px solid #000000;
+  font-size: 16px;
+  font-family: work-med;
+}
+.phone-img {  /* phone img */
+  width: 270px;
+}
+footer {
+  background-color: #000000;
+  padding: 30px 0;
+  font-family: work-reg;
+}
+.container1 {
+  display: flex;
+  width: 85%;
+  margin: 20px auto;
+  padding: 15px 0;
+  color: #ffffff;
+  background: url("/Test-design2/images/footer.svg");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: contain;
+  height: 65vh;
+}
+.social-media-hire {  /* social media div */
+  width: 40%;
+  margin-top: 8px;
+}
+.social-media-hire h2 {  /* social media heading */
+  font-size: 40px;
+}
+.social-media-hire .media-icons {
+  margin-top: 30px;
+  display: flex;    /* social media icons */
+  gap: 15px;
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 70%;
+}
+.footer-sections {
+  display: flex;   /* footer sections */
+  flex-direction: column;
+  gap: 20px;
+  width: 28%;
+}
+.footer-sections h3 {
+  font-size: 20px;  /* footer section heading*/
+}
+.footer-sections a {
+  color: #d2d2d2;  /*footer links */
+  font-size: 15px;
+}
+.policy {
+  color: #ffffff;
+  width: 85%;    /* policy*/
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.policy p {
+  font-size: 13px;
+  color: #d2d2d2;
+}
+.policy a {
+  margin-left: 20px;  /* links*/
+  font-size: 13px;
+  color: #d2d2d2;
+}
